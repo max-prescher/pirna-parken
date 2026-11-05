@@ -1,0 +1,11 @@
+PirnaSmart – Original-Wireframe mit Credits (neue Version)
+
+Die Oberfläche basiert auf dem ursprünglichen Wireframe mit Parken, Erlebnisroute, Entdecken und Infos. Credits ist ein zusätzlicher fünfter Reiter.
+
+37 Flächen aus der Koordinatenliste mit vier Eckpunkten und 9 Ladestationen: 4 Parkhäuser, 1 Straßenparkzone, 31 Parkflächen, 1 Motorradparkplatz. Parkhäuser werden unter Parkhäuser gefiltert; Straßenparkzone, Parkflächen und Motorradparkplatz unter Straßen & Parkplätze. Flächen sind anklickbar und werden als Umrisse markiert. Keine gesicherten Belegungszahlen oder Gebühren.
+
+Karte: Leaflet und OSM benötigen Internet. Bei blockiertem CDN werden zwei weitere Leaflet-Anbieter versucht. Standort finden benötigt HTTPS und Freigabe. Teste auf GitHub Pages, nicht als lokale Datei.
+
+Credits: 20 Punkte für Sehenswürdigkeiten nach zweimaligem GPS-Check im Abstand von 60 Sekunden; 50 für eine Route mit zwei bestätigten Stopps. Restaurants und echte Rabatte sind deaktiviert, bis ein verifizierter Partnercode/Server bereitsteht. Punkte nur lokal gespeichert, kein Betrugsschutz.
+
+GitHub: Alle Dateien in Repository-Root hochladen; Unterordner icons muss erhalten bleiben. Settings > Pages > main / (root). Keine ZIP als Ganzes hochladen. Bei altem Cache App im Browser neu öffnen.

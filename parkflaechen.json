@@ -1,0 +1,1225 @@
+{
+  "source": "Parkplatz Uni boost.docx (Nutzerdatei)",
+  "disclaimer": "Kartierte Bereiche aus Koordinaten. Keine Echtzeitbelegung; Zufahrt, Gebühren und Parkberechtigung vor Ort prüfen.",
+  "areas": [
+    {
+      "id": "area1",
+      "name": "Parkplatz Netto",
+      "coords": [
+        [
+          50.9540278,
+          13.9358056
+        ],
+        [
+          50.9537778,
+          13.9360556
+        ],
+        [
+          50.9534722,
+          13.9352778
+        ],
+        [
+          50.9536389,
+          13.9349167
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9537292,
+        13.9355139
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area2",
+      "name": "Parkplatz PEZ Pirnaer Einkaufszentrum",
+      "coords": [
+        [
+          50.9483611,
+          13.9423056
+        ],
+        [
+          50.9498333,
+          13.94325
+        ],
+        [
+          50.9499167,
+          13.94375
+        ],
+        [
+          50.9488056,
+          13.9441111
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9492292,
+        13.9433542
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area3",
+      "name": "Parkplatz Geibeltbad Pirna",
+      "coords": [
+        [
+          50.9457778,
+          13.94275
+        ],
+        [
+          50.9450556,
+          13.9431389
+        ],
+        [
+          50.9442222,
+          13.9429722
+        ],
+        [
+          50.9450278,
+          13.9425
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9450208,
+        13.9428403
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area4",
+      "name": "Parkplatz Obstscheune",
+      "coords": [
+        [
+          50.93025,
+          13.9771111
+        ],
+        [
+          50.9299444,
+          13.9788056
+        ],
+        [
+          50.9294722,
+          13.9782222
+        ],
+        [
+          50.9298056,
+          13.9770278
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Sachsen Energie Ladesäule",
+          "coords": [
+            50.9295278,
+            13.9779444
+          ]
+        }
+      ],
+      "center": [
+        50.929868,
+        13.9777917
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area5",
+      "name": "Calisthenics Park",
+      "coords": [
+        [
+          50.9509722,
+          13.9608889
+        ],
+        [
+          50.9509167,
+          13.9616111
+        ],
+        [
+          50.9506111,
+          13.9615278
+        ],
+        [
+          50.9506944,
+          13.9608333
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9507986,
+        13.9612153
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area6",
+      "name": "Parkplatz Remscheider Str.",
+      "coords": [
+        [
+          50.9513611,
+          13.9575
+        ],
+        [
+          50.95125,
+          13.9581111
+        ],
+        [
+          50.9506944,
+          13.9579444
+        ],
+        [
+          50.9507778,
+          13.9573333
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9510208,
+        13.9577222
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area7",
+      "name": "Parkplatz Rewe Varkausring",
+      "coords": [
+        [
+          50.9529722,
+          13.9563611
+        ],
+        [
+          50.95275,
+          13.95775
+        ],
+        [
+          50.9523056,
+          13.9574444
+        ],
+        [
+          50.9523889,
+          13.9566389
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Shell Recharge Ladesäule",
+          "coords": [
+            50.9527778,
+            13.9577222
+          ]
+        }
+      ],
+      "center": [
+        50.9526042,
+        13.9570486
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area8",
+      "name": "Parkplatz Remscheider Str. Nr. 2",
+      "coords": [
+        [
+          50.9535556,
+          13.9508889
+        ],
+        [
+          50.9535833,
+          13.9514722
+        ],
+        [
+          50.9531944,
+          13.9515
+        ],
+        [
+          50.9531944,
+          13.9509444
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9533819,
+        13.9512014
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area9",
+      "name": "Parkplatz Sporteinrichtung Struppener Str.",
+      "coords": [
+        [
+          50.9563889,
+          13.9618611
+        ],
+        [
+          50.9556944,
+          13.9615278
+        ],
+        [
+          50.9558611,
+          13.9611111
+        ],
+        [
+          50.9564722,
+          13.9613611
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9561042,
+        13.9614653
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area10",
+      "name": "Parkplatz Kaufland Pirna Sonnenstein",
+      "coords": [
+        [
+          50.9573056,
+          13.9576389
+        ],
+        [
+          50.9571389,
+          13.95925
+        ],
+        [
+          50.9563611,
+          13.9590278
+        ],
+        [
+          50.95675,
+          13.9575278
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Sachsen Energie Ladesäule",
+          "coords": [
+            50.9571667,
+            13.9595833
+          ]
+        }
+      ],
+      "center": [
+        50.9568889,
+        13.9583611
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area11",
+      "name": "Parkplatz Aldi Struppener Str.",
+      "coords": [
+        [
+          50.95725,
+          13.9529167
+        ],
+        [
+          50.9568611,
+          13.9530556
+        ],
+        [
+          50.9571111,
+          13.9512222
+        ],
+        [
+          50.9574167,
+          13.9513056
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Ladesäule Aldi",
+          "coords": [
+            50.9571944,
+            13.9527222
+          ]
+        }
+      ],
+      "center": [
+        50.9571597,
+        13.952125
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area12",
+      "name": "Parkplatz Netto Struppener Str.",
+      "coords": [
+        [
+          50.9580833,
+          13.9500556
+        ],
+        [
+          50.9579722,
+          13.9499444
+        ],
+        [
+          50.9576389,
+          13.9515
+        ],
+        [
+          50.9577778,
+          13.9515556
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9578681,
+        13.9507639
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area13",
+      "name": "Parkplatz Klinikum Pirna",
+      "coords": [
+        [
+          50.9579444,
+          13.9535278
+        ],
+        [
+          50.9575556,
+          13.9534167
+        ],
+        [
+          50.9577222,
+          13.9519167
+        ],
+        [
+          50.9580556,
+          13.9519722
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9578195,
+        13.9527083
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area14",
+      "name": "Parkplatz Schloßpark",
+      "coords": [
+        [
+          50.9606944,
+          13.95025
+        ],
+        [
+          50.9603056,
+          13.9511944
+        ],
+        [
+          50.9600278,
+          13.9510556
+        ],
+        [
+          50.9603056,
+          13.9499722
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9603333,
+        13.950618
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area15",
+      "name": "Parkplatz Schloss Sonnenstein",
+      "coords": [
+        [
+          50.9609722,
+          13.9461667
+        ],
+        [
+          50.9609722,
+          13.9470833
+        ],
+        [
+          50.9605,
+          13.947
+        ],
+        [
+          50.9604722,
+          13.9462222
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9607291,
+        13.946618
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area16",
+      "name": "Parkplatz des Vermessungsamtes",
+      "coords": [
+        [
+          50.9598056,
+          13.9483611
+        ],
+        [
+          50.9597778,
+          13.9486667
+        ],
+        [
+          50.9595833,
+          13.9486111
+        ],
+        [
+          50.9596111,
+          13.9483611
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9596945,
+        13.9485
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area17",
+      "name": "Parkplatz Pirna-Sonnenstein",
+      "coords": [
+        [
+          50.9607222,
+          13.9503333
+        ],
+        [
+          50.9603333,
+          13.9511944
+        ],
+        [
+          50.9600278,
+          13.9509722
+        ],
+        [
+          50.9602778,
+          13.9499444
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9603403,
+        13.9506111
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area18",
+      "name": "Parkhaus am Steinplatz",
+      "coords": [
+        [
+          50.9638611,
+          13.9468889
+        ],
+        [
+          50.9638333,
+          13.9478889
+        ],
+        [
+          50.9635278,
+          13.9478889
+        ],
+        [
+          50.9635,
+          13.9469167
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9636805,
+        13.9473958
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "garage",
+      "parkingCategoryLabel": "Parkhaus / Tiefgarage"
+    },
+    {
+      "id": "area19",
+      "name": "Parkplatz Dippoldeswalder Str.",
+      "coords": [
+        [
+          50.9566667,
+          13.9275556
+        ],
+        [
+          50.9566944,
+          13.9288611
+        ],
+        [
+          50.9564167,
+          13.9288889
+        ],
+        [
+          50.9562778,
+          13.9281111
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9565139,
+        13.9283542
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area20",
+      "name": "Parkplatz Lidl Dresdner Str.",
+      "coords": [
+        [
+          50.9575278,
+          13.9271667
+        ],
+        [
+          50.9575556,
+          13.9279167
+        ],
+        [
+          50.9567778,
+          13.9272222
+        ],
+        [
+          50.9572222,
+          13.9274722
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Ladesäule Lidl",
+          "coords": [
+            50.9572778,
+            13.9276667
+          ]
+        }
+      ],
+      "center": [
+        50.9572709,
+        13.9274444
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area21",
+      "name": "Parkplatz Obi",
+      "coords": [
+        [
+          50.9593889,
+          13.9272222
+        ],
+        [
+          50.9593611,
+          13.9278889
+        ],
+        [
+          50.9585,
+          13.9271111
+        ],
+        [
+          50.9585278,
+          13.9278333
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9589445,
+        13.9275139
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area22",
+      "name": "Parkplatz Königsteiner Str.",
+      "coords": [
+        [
+          50.9574167,
+          13.9357222
+        ],
+        [
+          50.9574444,
+          13.9368333
+        ],
+        [
+          50.9569722,
+          13.9368056
+        ],
+        [
+          50.957,
+          13.9358056
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9572083,
+        13.9362917
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area23",
+      "name": "Parkhaus Stadtmitte Apcoa",
+      "coords": [
+        [
+          50.9583611,
+          13.9361389
+        ],
+        [
+          50.9583889,
+          13.9373889
+        ],
+        [
+          50.9580278,
+          13.9373611
+        ],
+        [
+          50.9579722,
+          13.9362222
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9581875,
+        13.9367778
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "garage",
+      "parkingCategoryLabel": "Parkhaus / Tiefgarage"
+    },
+    {
+      "id": "area24",
+      "name": "Parkplatz Netto Breite Str.",
+      "coords": [
+        [
+          50.9586389,
+          13.9377778
+        ],
+        [
+          50.9586667,
+          13.9385278
+        ],
+        [
+          50.9581667,
+          13.9383056
+        ],
+        [
+          50.9580278,
+          13.938
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Ladesäule Vattenfall",
+          "coords": [
+            50.9581389,
+            13.938
+          ]
+        }
+      ],
+      "center": [
+        50.958375,
+        13.9381528
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area25",
+      "name": "Parkplatz Netto Schandauer Str.",
+      "coords": [
+        [
+          50.9584167,
+          13.9428889
+        ],
+        [
+          50.9584167,
+          13.9435278
+        ],
+        [
+          50.9578333,
+          13.9429444
+        ],
+        [
+          50.9578611,
+          13.9435556
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Ladesäule Amperio",
+          "coords": [
+            50.9579722,
+            13.9433889
+          ]
+        }
+      ],
+      "center": [
+        50.958132,
+        13.9432292
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area26",
+      "name": "Parkplatz P+R Bahnhofstraße",
+      "coords": [
+        [
+          50.9616944,
+          13.9299722
+        ],
+        [
+          50.9616944,
+          13.9306944
+        ],
+        [
+          50.9611944,
+          13.9308611
+        ],
+        [
+          50.96125,
+          13.9301389
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9614583,
+        13.9304166
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area27",
+      "name": "Parkplatz P+R Bahnhof",
+      "coords": [
+        [
+          50.96275,
+          13.9305
+        ],
+        [
+          50.9630833,
+          13.9321389
+        ],
+        [
+          50.9628889,
+          13.9321389
+        ],
+        [
+          50.9625833,
+          13.9306667
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9628264,
+        13.9313611
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area28",
+      "name": "Tiefgarage Scheunenhof Center",
+      "coords": [
+        [
+          50.9611111,
+          13.9360556
+        ],
+        [
+          50.9611111,
+          13.9370556
+        ],
+        [
+          50.9608056,
+          13.93625
+        ],
+        [
+          50.9608056,
+          13.9368611
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Ladesäule SachsenEnergie",
+          "coords": [
+            50.9609444,
+            13.9360556
+          ]
+        }
+      ],
+      "center": [
+        50.9609583,
+        13.9365556
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "garage",
+      "parkingCategoryLabel": "Parkhaus / Tiefgarage"
+    },
+    {
+      "id": "area29",
+      "name": "Parkplatz Klosterstraße Pirna",
+      "coords": [
+        [
+          50.9636389,
+          13.93525
+        ],
+        [
+          50.9637222,
+          13.9358333
+        ],
+        [
+          50.96325,
+          13.9356944
+        ],
+        [
+          50.9631944,
+          13.93525
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9634514,
+        13.9355069
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area30",
+      "name": "Parkplatz Grohmannstraße",
+      "coords": [
+        [
+          50.9631944,
+          13.9375556
+        ],
+        [
+          50.9631667,
+          13.9380556
+        ],
+        [
+          50.9628333,
+          13.9379167
+        ],
+        [
+          50.9629167,
+          13.9374444
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9630278,
+        13.9377431
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area31",
+      "name": "Parkplatz Alstadt Apcoa",
+      "coords": [
+        [
+          50.9631667,
+          13.9384444
+        ],
+        [
+          50.9630833,
+          13.939
+        ],
+        [
+          50.96275,
+          13.9389444
+        ],
+        [
+          50.9627778,
+          13.93825
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9629445,
+        13.9386597
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "garage",
+      "parkingCategoryLabel": "Parkhaus / Tiefgarage"
+    },
+    {
+      "id": "area32",
+      "name": "Motorrad Parkplatz",
+      "coords": [
+        [
+          50.9610556,
+          13.9380278
+        ],
+        [
+          50.9609722,
+          13.9385556
+        ],
+        [
+          50.9609722,
+          13.9384722
+        ],
+        [
+          50.9610278,
+          13.9380833
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9610069,
+        13.9382847
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "motorcycle",
+      "parkingCategoryLabel": "Motorradparkplatz"
+    },
+    {
+      "id": "area33",
+      "name": "Parkplatz Elbeparkplatz",
+      "coords": [
+        [
+          50.9643056,
+          13.94025
+        ],
+        [
+          50.9643333,
+          13.9419167
+        ],
+        [
+          50.9641111,
+          13.9417778
+        ],
+        [
+          50.9641389,
+          13.9400556
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9642222,
+        13.941
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area34",
+      "name": "Parkplatz am Zwinger",
+      "coords": [
+        [
+          50.9639444,
+          13.9418889
+        ],
+        [
+          50.9639167,
+          13.9451944
+        ],
+        [
+          50.9636667,
+          13.9451667
+        ],
+        [
+          50.9638333,
+          13.9418889
+        ]
+      ],
+      "chargers": [
+        {
+          "name": "Ladesäule SachsenEnergie",
+          "coords": [
+            50.9639444,
+            13.9416667
+          ]
+        }
+      ],
+      "center": [
+        50.9638403,
+        13.9435347
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area35",
+      "name": "Parkplatz Marktplatz",
+      "coords": [
+        [
+          50.9628333,
+          13.9413611
+        ],
+        [
+          50.9626944,
+          13.9425556
+        ],
+        [
+          50.9621944,
+          13.9424722
+        ],
+        [
+          50.9622778,
+          13.94125
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9625,
+        13.9419097
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    },
+    {
+      "id": "area36",
+      "name": "Parkzone Lange Str.",
+      "coords": [
+        [
+          50.9635833,
+          13.9398333
+        ],
+        [
+          50.9635,
+          13.9398056
+        ],
+        [
+          50.96325,
+          13.9441111
+        ],
+        [
+          50.9631944,
+          13.9441111
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9633819,
+        13.9419653
+      ],
+      "geometry": "street-zone",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "street",
+      "parkingCategoryLabel": "Straßenparkzone"
+    },
+    {
+      "id": "area37",
+      "name": "Parkplatz Dresdner Str. McDonald`s",
+      "coords": [
+        [
+          50.9566111,
+          13.9133056
+        ],
+        [
+          50.9566389,
+          13.9137778
+        ],
+        [
+          50.9562778,
+          13.9138056
+        ],
+        [
+          50.9562778,
+          13.9133056
+        ]
+      ],
+      "chargers": [],
+      "center": [
+        50.9564514,
+        13.9135486
+      ],
+      "geometry": "area",
+      "note": "Aus Nutzerliste übernommen; Verfügbarkeit, Öffnungszeiten, Parkberechtigung und Gebühren nicht geprüft.",
+      "parkingCategory": "lot",
+      "parkingCategoryLabel": "Parkplatz / Parkfläche"
+    }
+  ]
+}
