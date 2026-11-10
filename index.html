@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PirnaSmart • Pirna Rewards</title><meta name="theme-color" content="#087b77"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="PirnaSmart • Pirna Rewards"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/icon-180.png">
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CityMate Pirna</title><meta name="theme-color" content="#087b77"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="PirnaSmart • Pirna Rewards"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/icon-180.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"><style>
 :root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#203332;background:#edf3f1}*{box-sizing:border-box}body{margin:0;padding:20px 10px}button,input,select{font:inherit}button{cursor:pointer}.app{max-width:490px;margin:auto;background:white;border-radius:18px;overflow:hidden;border:1px solid #d9e5e1;box-shadow:0 12px 35px #163d3020}.hero{background:linear-gradient(115deg,#087b77,#075651);color:white;padding:15px 17px}.brand{font-size:22px;font-weight:850}.search{background:white;border-radius:11px;margin-top:12px;display:flex;align-items:center;gap:7px;padding:0 11px;color:#667}.search input{height:42px;border:0;outline:0;width:100%;color:#233}.body{padding:15px;min-height:450px}.heading{font-size:19px;font-weight:800}.sub{font-size:12px;color:#687b78;line-height:1.5}.row{display:flex;justify-content:space-between;align-items:center;gap:9px}.chips{display:flex;gap:7px;overflow-x:auto;padding:13px 0;scrollbar-width:none}.chip{border:1px solid #d9e5e1;background:white;border-radius:22px;padding:9px 12px;white-space:nowrap;font-size:12px;font-weight:650}.chip.on{background:#087b77;color:white;border-color:#087b77}.map{height:355px;position:relative;overflow:hidden;border-radius:13px;border:1px solid #d9e5e1;background:#e5ede2;touch-action:pan-y}.tiles{position:absolute;inset:0}.tiles img{position:absolute;width:256px;height:256px;max-width:none}.pin{position:absolute;transform:translate(-50%,-100%);z-index:2;border:2px solid white;border-radius:12px;background:#087b77;color:white;padding:7px 9px;box-shadow:0 3px 9px #0005;font-size:13px;font-weight:800;white-space:nowrap}.pin.street{background:#d39435}.pin.food{background:#c65e48}.pin.sight{background:#7762b7}.pin.event{background:#4d729f}.pin.on{outline:3px solid #f6d06e;z-index:4}.mapbtn{background:white;border:0;border-radius:12px;padding:11px;color:#183b3a;box-shadow:0 2px 9px #0003;font-size:12px;font-weight:750}.credit{position:absolute;left:7px;bottom:6px;background:#ffffffe8;color:#485f59;border-radius:5px;padding:4px 6px;font-size:9px;z-index:3}.panel{background:white;border:1px solid #d9e5e1;border-radius:13px;padding:14px;margin-top:13px}.btn{border:0;background:#087b77;color:white;border-radius:10px;padding:11px 13px;font-size:13px;font-weight:750}.btn.alt{background:#eef5f2;color:#1e4640;border:1px solid #d9e5e1}.field{width:100%;background:white;color:#203332;border:1px solid #d9e5e1;border-radius:10px;padding:11px;font-size:13px}.cardtitle{font-size:14px;font-weight:800}.tag{background:#e2f5ee;color:#087b77;padding:5px 8px;border-radius:8px;font-size:11px;font-weight:750}.demo{background:#fff0cc;color:#74510b}.option{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:11px 0;border-bottom:1px solid #e3ebe7}.option:last-child{border:0}.smallbtn{background:#eef5f2;border:1px solid #d9e5e1;border-radius:8px;padding:8px 10px;font-size:12px;font-weight:700;color:#203332}.pricebox{background:linear-gradient(115deg,#07635c,#0a857a);color:white;border-radius:13px;padding:17px;margin-top:14px}.bottom{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid #d9e5e1;background:white}.bottom button{border:0;background:transparent;padding:12px 2px;display:flex;flex-direction:column;align-items:center;gap:5px;color:#637975;font-size:11px}.bottom button.on{color:#087b77;font-weight:850}.ico{font-size:22px}.hidden{display:none!important}.num{width:26px;height:26px;border-radius:50%;background:#e0f3ee;color:#087b77;display:grid;place-items:center;font-size:12px;font-weight:850;flex-shrink:0}.stop{display:flex;gap:9px;align-items:center;padding:11px 0;border-bottom:1px solid #e3ebe7}.filterpanel{background:#f3f8f6;border:1px solid #d9e5e1;border-radius:12px;padding:13px;margin-bottom:12px}.checkrow{display:flex;align-items:center;gap:10px;padding:8px 0;font-size:13px}.checkrow input{width:18px;height:18px;accent-color:#087b77}.notice{position:absolute;left:10px;right:10px;bottom:30px;background:#fffffff2;color:#344944;padding:9px;border-radius:9px;font-size:11px;z-index:6}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:9px}.buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.buttons button{min-height:43px}.muted{color:#657a75}.fine{font-size:11px;color:#71827e}.sectiongap{margin-top:12px}.badge{display:inline-block;font-size:10px;font-weight:800;border-radius:6px;padding:3px 6px;background:#e3f3ef;color:#087b77}.badge.sim{background:#fff0cc;color:#815900}.a{color:#087b77;text-decoration:underline;font-size:12px}.route-info{font-size:12px;line-height:1.7}.eventdate{font-size:12px;font-weight:800;color:#087b77}a{color:#087b77} @media(max-width:360px){.bottom button{font-size:10px}.body{padding:12px}.btn{padding:9px 7px}}
 
@@ -108,7 +108,7 @@ body{padding:0;background:#fff}
 #parking #parking-route-action.is-sticky{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--bottom-nav-height,78px) + 12px);width:min(720px,calc(100% - 24px));z-index:1400;background:white;border:1px solid #b9d0c2;border-radius:16px;box-shadow:0 5px 24px #163d3026;padding:20px;display:flex;flex-wrap:wrap;gap:14px;max-height:45dvh;overflow:auto}
 #parking-route-action.is-sticky .dock-route-copy{flex-basis:100%;padding-right:30px}#parking-route-action.is-sticky>.btn{width:100%}.dismiss-target-action{position:absolute;right:10px;top:8px;width:36px;height:36px;border:0;border-radius:50%;background:#f0f5f1;color:#466156;font-size:24px;cursor:pointer}
 #parking .parking-dock.target-only{border:0;margin:0}.has-sticky-target .app{padding-bottom:calc(var(--bottom-nav-height,78px) + 220px)}
-</style><link rel="stylesheet" href="fonts.css?v=16"><link rel="stylesheet" href="design-system.css?v=25"></head><body><main class="app"><header class="hero"><button class="citymate-logo" id="citymate-home" aria-label="CityMate Pirna – zur Startseite"><svg class="citymate-logo-mark" width="35" height="43" viewBox="0 0 35 43" fill="none" aria-hidden="true"><path d="M17.5 2C9 2 3 8.3 3 16.2c0 10 14.5 24 14.5 24S32 26.2 32 16.2C32 8.3 26 2 17.5 2Z" stroke="currentColor" stroke-width="2.4"/><path d="M12 21V12h4v9m3 0V9h4v12M10 21h15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="citymate-logo-type"><strong>CityMate<span>Pirna</span></strong><small>Parken. Entdecken. Erleben.</small></span></button><button class="navigation-toggle" id="navigation-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="header-navigation"><span aria-hidden="true">☰</span><span>Menü</span></button><nav id="header-navigation" class="header-navigation hidden" aria-label="Hauptnavigation"><span class="navigation-label">PIRNA ENTDECKEN</span><button data-tab="parking">🅿️ Parken</button><button data-tab="routes">🧭 Erlebnisroute</button><button data-tab="discover">🍽️ Entdecken</button><button data-tab="info">ℹ️ Infos</button></nav></header><div class="body">
+</style><link rel="stylesheet" href="fonts.css?v=16"><link rel="stylesheet" href="design-system.css?v=29"></head><body><main class="app"><header class="hero"><button class="citymate-logo" id="citymate-home" aria-label="CityMate Pirna – zur Startseite"><svg class="citymate-logo-mark" width="35" height="43" viewBox="0 0 35 43" fill="none" aria-hidden="true"><path d="M17.5 2C9 2 3 8.3 3 16.2c0 10 14.5 24 14.5 24S32 26.2 32 16.2C32 8.3 26 2 17.5 2Z" stroke="currentColor" stroke-width="2.4"/><path d="M12 21V12h4v9m3 0V9h4v12M10 21h15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="citymate-logo-type"><strong>CityMate<span>Pirna</span></strong><small>Parken. Entdecken. Erleben.</small></span></button><div class="header-controls"><details id="app-language" class="language-picker"><summary aria-label="Sprache auswählen"><span class="language-flag" data-flag="de" aria-hidden="true"></span><span id="current-language">DE</span><span class="language-chevron" aria-hidden="true"></span></summary><div class="language-options"><button type="button" data-language="de" aria-pressed="true"><span class="language-flag" data-flag="de" aria-hidden="true"></span><span lang="de" data-no-translate>Deutsch</span></button><button type="button" data-language="en" aria-pressed="false"><span class="language-flag" data-flag="en" aria-hidden="true"></span><span lang="en" data-no-translate>English</span></button></div></details><button class="navigation-toggle" id="navigation-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="header-navigation"><span aria-hidden="true">☰</span><span>Menü</span></button></div><nav id="header-navigation" class="header-navigation hidden" aria-label="Hauptnavigation"><span class="navigation-label">PIRNA ENTDECKEN</span><button data-tab="parking">🅿️ Parken</button><button data-tab="routes">🧭 Erlebnisroute</button><button data-tab="discover">🍽️ Entdecken</button><button data-tab="info">ℹ️ Infos</button></nav></header><div class="body">
 <section id="parking" aria-labelledby="parking-title">
 <div class="city-hero-photo"><img src="assets/pirna-sonnenstein.jpg" alt="Schloss Sonnenstein über der historischen Altstadt von Pirna" width="1280" height="440" fetchpriority="high"></div><div class="parking-intro"><div><span class="eyebrow">GUT ANKOMMEN IN PIRNA</span><h1 id="parking-title">Dein Parkplatz. Dein Weg in die Stadt.</h1><p>Finde einen Parkplatz in der Nähe deines Ziels.</p></div></div>
 <div class="parking-searchbar"><div class="destination-field"><label for="search">Wo möchtest du hin?</label><div class="search">⌕ <input id="search" type="search" autocomplete="off" placeholder="Zum Beispiel Marktplatz oder Bahnhof" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="destination-options" aria-describedby="search-help"></div><div id="destination-options" class="destination-options hidden" role="listbox" aria-label="Suchvorschläge"></div></div><button class="smallbtn" id="clear-search" aria-label="Suche zurücksetzen" title="Suche zurücksetzen">Suche zurücksetzen</button></div>
@@ -118,15 +118,15 @@ body{padding:0;background:#fff}
 <div class="parking-status" id="parking-status" role="status" aria-live="polite"></div>
 <div class="parking-layout view-map" id="parking-layout"><div class="map-column"><div class="mapwrap"><div class="map" id="map" aria-label="Karte der Parkplätze in Pirna"></div><div class="mapoverlay"><button class="mapbtn" id="locate">⌖ Standort finden</button></div></div><div class="map-legend">Tipp: Klicke auf eine freie Stelle der Karte, um ein Ziel zu wählen.<br>P = Parkplatz · 🅿 = Parkhaus · ⚡ = Ladepunkt (Status unbekannt)</div><div id="target-summary" class="target-summary hidden" aria-live="polite"></div><aside id="parking-dock" class="parking-dock hidden" aria-label="Parkplatzdetails und Navigation"><div id="detail" aria-live="polite"></div><div id="parking-route-action"></div></aside><div id="map-route-actions" class="map-route-actions hidden"><div><strong>Deine Erlebnisroute</strong><div class="sub" id="map-route-count"></div></div></div></div></div>
 <div class="parking-discover"><div><strong>Gut geparkt. Und jetzt Pirna entdecken?</strong><p>Sehenswürdigkeiten, Cafés und kleine Ausflüge durch die Stadt.</p></div><button class="btn alt" data-tab="discover">Pirna entdecken →</button></div></section>
-<section id="routes" class="hidden"><div class="heading">🧭 Deine Erlebnisroute</div><div class="sub">In 3 Schritten zum Ausflug durch Pirna.</div>
+<section id="routes" class="hidden"><div class="city-hero-photo"><img src="assets/pirna-marktplatz.jpg" alt="Blick über den Pirnaer Marktplatz" width="1280" height="440" loading="lazy"></div><div class="route-title-row"><h1 class="heading">🧭 Deine Erlebnisroute</h1><button class="smallbtn saved-routes-trigger" id="open-saved-routes" aria-label="Gespeicherte Routen" title="Gespeicherte Routen"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"/></svg></button></div><div class="sub">In 3 Schritten zum Ausflug durch Pirna.</div>
 <div class="route-overview"><div><span class="mini-label">DEINE PLANUNG</span><strong id="route-overview-count">3 Ziele ausgewählt</strong><span class="sub">Start → Entdecken → Genießen</span></div><span class="overview-icon">🗺️</span></div><div class="panel"><div class="step-title"><span class="step-number">1</span><div><div class="cardtitle">Start & Parken</div><div class="sub">Lege deinen Ausgangspunkt fest.</div></div></div><label class="sub" for="start">Startpunkt auswählen</label><select class="field sectiongap" id="start"></select><button class="btn alt sectiongap" id="route-locate">⌖ Meinen Standort als Start wählen</button><p id="route-location-status" class="sub" role="status" aria-live="polite"></p><div class="twocol sectiongap"><div><div class="sub">Personen</div><select class="field" id="people"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></div><div><div class="sub">Parkdauer (Std.)</div><select class="field" id="hours"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option></select></div></div></div><div class="panel"><div class="step-title"><span class="step-number">2</span><div><div class="cardtitle">Ziele auswählen</div><div class="sub">Stelle dir deinen Tag zusammen.</div></div></div>
 <div class="choice-heading"><span>🏛️ Sehenswürdigkeiten</span><span class="mini-label">KULTUR & ORTE</span></div><div id="sight-options"></div>
 <div class="choice-heading"><span>🍽️ Essen & Trinken</span><span class="mini-label">GENUSS</span></div><div id="food-options"></div></div><div class="panel"><div class="step-title"><span class="step-number">3</span><div><div class="cardtitle">Dein Tagesplan</div><div class="sub">Die Reihenfolge deiner Stopps.</div></div></div>
-<div id="stops"></div><div class="route-buttons"><button class="btn" id="showroute">🗺️ Route auf Karte</button><button class="smallbtn" id="clearroute">Zurücksetzen</button></div></div><div class="pricebox"><div style="font-size:12px;color:#c8f1e8">Geschätzte Kosten pro Person</div><div id="per" style="font-size:35px;font-weight:850;margin:6px 0">–</div><div id="breakdown" class="route-info"></div><div class="fine" style="color:#d4fff1">* Bei Parkflächen aus der Liste ohne unbekannte Parkgebühren.</div><div class="row sectiongap" style="border-top:1px solid #ffffff55;padding-top:12px;font-weight:800"><span>Gesamt für alle</span><span id="total"></span></div></div><p class="fine">Für die neu aufgenommenen Parkflächen sind Gebühren unbekannt und deshalb nicht in der Kostenschätzung enthalten. Bisherige Parktarife sind Richtwerte, Gastro-Budgets Testwerte. Die Verbindungslinie auf der Karte ist schematisch; Google Maps berechnet den tatsächlichen Fußweg.</p></section>
-<section id="discover" class="hidden"><div class="heading">✨ Pirna entdecken</div><div class="sub">Die schönsten Orte, Restaurants und Veranstaltungen auf einen Blick.</div>
+<div id="stops"></div><div class="route-buttons"><button class="btn" id="showroute">🗺️ Route auf Karte</button><button class="smallbtn" id="save-route">Route speichern</button><button class="smallbtn" id="clearroute">Zurücksetzen</button></div></div><div class="pricebox"><div style="font-size:12px;color:#c8f1e8">Geschätzte Kosten pro Person</div><div id="per" style="font-size:35px;font-weight:850;margin:6px 0">–</div><div id="breakdown" class="route-info"></div><div class="fine" style="color:#d4fff1">* Bei Parkflächen aus der Liste ohne unbekannte Parkgebühren.</div><div class="row sectiongap" style="border-top:1px solid #ffffff55;padding-top:12px;font-weight:800"><span>Gesamt für alle</span><span id="total"></span></div></div><p class="fine">Für die neu aufgenommenen Parkflächen sind Gebühren unbekannt und deshalb nicht in der Kostenschätzung enthalten. Bisherige Parktarife sind Richtwerte, Gastro-Budgets Testwerte. Die Verbindungslinie auf der Karte ist schematisch; Google Maps berechnet den tatsächlichen Fußweg.</p></section>
+<section id="discover" class="hidden"><div class="city-hero-photo"><img src="assets/pirna-freizeit.jpg" alt="Kinder entdecken Pirna" width="1280" height="440" loading="lazy"></div><div class="heading">✨ Pirna entdecken</div><div class="sub">Die schönsten Orte, Restaurants und Veranstaltungen auf einen Blick.</div>
 <div class="discover-nav"><button class="discover-tile on" data-discover="all"><span>✨</span><strong>Übersicht</strong></button><button class="discover-tile" data-discover="sight"><span>🏛️</span><strong>Erleben</strong></button><button class="discover-tile" data-discover="food"><span>🍽️</span><strong>Genießen</strong></button><button class="discover-tile" data-discover="event"><span>📅</span><strong>Events</strong></button></div>
 <div id="discovercards"></div></section>
-<section id="info" class="hidden"><div class="heading">ℹ️ Informationen</div><div class="panel"><div class="cardtitle">🅿️ Parken in Pirna</div><p class="sub">Die 37 kartierten Bereiche aus deiner Koordinatenliste sind direkt in die bestehenden Filter eingeordnet (4 Parkhäuser, 1 Straßenparkzone, 31 Parkflächen und 1 Motorradparkplatz). Für diese sind freie Plätze, Gebühren, Zufahrt und Parkberechtigung nicht bekannt. Angaben vor Ort prüfen. Auf der Parkplatzansicht werden keine Belegungszahlen angezeigt. Der neue Credits-Reiter ist ein Pilot ohne einlösbare Rabatte.</p><a class="a" href="https://www.pirna.de/leben-in-pirna/mobilitaet-verkehr/parken/" target="_blank" rel="noopener">Offizielle Parkinformationen ↗</a></div><div class="panel"><div class="cardtitle">📅 Veranstaltungen</div><p class="sub">Die Veranstaltungen werden beim Öffnen und alle 30 Minuten aus dem veröffentlichten Datenstand geladen. Bei fehlender Verbindung bleibt der letzte gespeicherte Stand sichtbar. <strong id="event-status">Aktualisierung wird geprüft …</strong></p><a class="a" href="https://www.pirna.de/pirna-erleben/veranstaltungen/veranstaltungskalender/" target="_blank" rel="noopener">Aktueller Veranstaltungskalender ↗</a></div><div class="panel"><div class="cardtitle">🔎 Demo-Daten</div><p class="sub">Die 37 Parkflächen wurden vom Team vor Ort mit GPS erfasst. Belegungsdaten liegen nicht vor. Ladepunkte aus der Liste ohne Live-Status. Gastronomie-Budgets sind Testwerte.</p></div><div class="panel"><div class="cardtitle">🚌 Bus & Bahn</div><p class="sub">Eine Fahrplanauskunft kann in einer späteren Ausbaustufe ergänzt werden.</p></div></section>
+<section id="info" class="hidden"><div class="city-hero-photo"><img src="assets/pirna-panorama.jpg" alt="Panorama der Pirnaer Altstadt" width="1280" height="440" loading="lazy"></div><div class="heading">ℹ️ Informationen</div><div class="panel"><div class="cardtitle">🅿️ Parken in Pirna</div><p class="sub">Die 37 kartierten Bereiche aus deiner Koordinatenliste sind direkt in die bestehenden Filter eingeordnet (4 Parkhäuser, 1 Straßenparkzone, 31 Parkflächen und 1 Motorradparkplatz). Für diese sind freie Plätze, Gebühren, Zufahrt und Parkberechtigung nicht bekannt. Angaben vor Ort prüfen. Auf der Parkplatzansicht werden keine Belegungszahlen angezeigt.</p><a class="a" href="https://www.pirna.de/leben-in-pirna/mobilitaet-verkehr/parken/" target="_blank" rel="noopener">Offizielle Parkinformationen ↗</a></div><div class="panel"><div class="cardtitle">📅 Veranstaltungen</div><p class="sub">Die Veranstaltungen werden beim Öffnen und alle 30 Minuten aus dem veröffentlichten Datenstand geladen. Bei fehlender Verbindung bleibt der letzte gespeicherte Stand sichtbar. <strong id="event-status">Aktualisierung wird geprüft …</strong></p><a class="a" href="https://www.pirna.de/pirna-erleben/veranstaltungen/veranstaltungskalender/" target="_blank" rel="noopener">Aktueller Veranstaltungskalender ↗</a></div><div class="panel"><div class="cardtitle">🔎 Demo-Daten</div><p class="sub">Die 37 Parkflächen wurden vom Team vor Ort mit GPS erfasst. Belegungsdaten liegen nicht vor. Ladepunkte aus der Liste ohne Live-Status. Gastronomie-Budgets sind Testwerte.</p></div><div class="panel"><div class="cardtitle">🚌 Bus & Bahn</div><p class="sub">Eine Fahrplanauskunft kann in einer späteren Ausbaustufe ergänzt werden.</p></div></section>
 <section id="credits" class="hidden">
  <div class="heading">⭐ Pirna Credits</div>
  <div class="sub">Entdecke Pirna und sammle Punkte. Pilot-Demo ohne echte Rabatte.</div>
@@ -141,7 +141,7 @@ body{padding:0;background:#fff}
  <div class="option"><div><div class="cardtitle">🍽️ 5 % auf eine Hauptspeise</div><div class="sub">300 Credits · Muster-Gutschein</div></div><button class="smallbtn" data-reward="300">Ansehen</button></div>
  <div class="sub sectiongap" id="credit-voucher" aria-live="polite"></div></div>
  <div class="panel"><div class="cardtitle">🔒 Sicherheit & Datenschutz</div><p class="sub">Die Standortprüfung läuft nur nach deiner Zustimmung. Standortkoordinaten werden nicht gespeichert. Credits bleiben auf diesem Gerät. Für echte Rabatte braucht es Partnervereinbarungen, einen Server und einmalige QR- oder Kassen-Codes, damit Punkte nicht manipulierbar sind.</p></div>
-</section></div><nav class="bottom"><button data-tab="parking" class="on"><span class="ico">🅿️</span>Parken</button><button data-tab="routes"><span class="ico">🧭</span>Erlebnisroute</button><button data-tab="discover"><span class="ico">🍽️</span>Entdecken</button><button data-tab="info"><span class="ico">ℹ️</span>Infos</button></nav></main>
+</section></div><nav class="bottom"><button data-tab="parking" class="on"><span class="ico">🅿️</span>Parken</button><button data-tab="routes"><span class="ico">🧭</span>Erlebnisroute</button><button data-tab="discover"><span class="ico">🍽️</span>Entdecken</button><button data-tab="info"><span class="ico">ℹ️</span>Infos</button></nav><dialog id="saved-routes-dialog" aria-labelledby="saved-routes-title"><div class="row"><h2 id="saved-routes-title">Gespeicherte Routen</h2><form method="dialog"><button class="smallbtn" aria-label="Schließen">×</button></form></div><div id="saved-routes-list"></div><form id="save-route-form"><label for="route-name">Name der Route</label><input class="field" id="route-name" maxlength="80" required><button class="btn" type="submit">Aktuelle Route speichern</button></form><p class="sub" id="saved-routes-status" role="status"></p></dialog></main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="parking-location.js"></script><script>if(!window.L)document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"><\/script>');</script>
 <script>if(!window.L)document.write('<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"><\/script>');</script>
@@ -201,6 +201,7 @@ async function updateEvents(){
     if(status)status.textContent='Offline / Datenquelle nicht erreichbar – gespeicherte Termine werden angezeigt';}
 }
 const map=L.map('map',{zoomControl:true,scrollWheelZoom:true,tap:false}).setView([50.9625,13.942],15);
+
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
   maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
 }).addTo(map);
@@ -307,8 +308,13 @@ let parkingTarget=null, parkingOrigin=null, locating=false, suggestionIndex=-1, 
 const locationLayer=L.layerGroup().addTo(map);
 const normalizeParking=v=>String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/ß/g,'ss');
 const parkingDistance=(a,b)=>{const r=Math.PI/180,dlat=(b.lat-a.lat)*r,dlon=(b.lon-a.lon)*r,q=Math.sin(dlat/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dlon/2)**2;return 6371000*2*Math.atan2(Math.sqrt(q),Math.sqrt(Math.max(0,1-q)))};
-function parkingMatches(p){return (category==='all'||p.type===category)&&(!search||parkingTarget||normalizeParking(p.name+' '+p.addr).includes(normalizeParking(search)))}
-function parkingDestinations(){const q=normalizeParking(search);return q.length?items.filter(p=>(p.survey||['sight','food'].includes(p.type))&&normalizeParking(p.name+' '+p.addr).includes(q)).sort((a,b)=>Number(!normalizeParking(a.name).startsWith(q))-Number(!normalizeParking(b.name).startsWith(q))||a.name.localeCompare(b.name,'de')).slice(0,8):[]}
+function parkingQuery(){
+ const query=normalizeParking(search);
+ const aliases={'market square':'marktplatz','train station':'bahnhof','railway station':'bahnhof','sonnenstein castle':'schloss sonnenstein','city museum':'stadtmuseum','parking lot':'parkplatz','parking garage':'parkhaus'};
+ return Object.hasOwn(aliases,query)?aliases[query]:query;
+}
+function parkingMatches(p){return (category==='all'||p.type===category)&&(!search||parkingTarget||normalizeParking(p.name+' '+p.addr).includes(parkingQuery()))}
+function parkingDestinations(){const q=parkingQuery();return q.length?items.filter(p=>(p.survey||['sight','food'].includes(p.type))&&normalizeParking(p.name+' '+p.addr).includes(q)).sort((a,b)=>Number(!normalizeParking(a.name).startsWith(q))-Number(!normalizeParking(b.name).startsWith(q))||a.name.localeCompare(b.name,'de')).slice(0,8):[]}
 function closeSuggestions(){suggestionsOpen=false;suggestionIndex=-1;$('#destination-options').classList.add('hidden');$('#search').setAttribute('aria-expanded','false');$('#search').removeAttribute('aria-activedescendant')}
 function renderSuggestions(){
  const matches=parkingDestinations(),open=suggestionsOpen&&search.length>0;
@@ -405,6 +411,95 @@ $('#search').addEventListener('keydown',e=>{
 });
 ['cheap','freesights'].forEach(id=>$('#'+id).addEventListener('change',pins));$('#search').addEventListener('input',e=>{search=e.target.value.toLowerCase().trim();parkingTarget=null;suggestionsOpen=true;suggestionIndex=-1;selected=null;routeShown=false;if(tab!=='parking')switchTab('parking');pins()});$('#start').addEventListener('change',e=>{if(e.target.value==='current-location'){if(parkingOrigin){start='current-location';renderRoute();pins()}else{$('#start').value=start;locateUser(true)}return}start=e.target.value;routeShown=false;renderRoute();pins()});$('#people').addEventListener('change',e=>{people=+e.target.value;renderRoute()});$('#hours').addEventListener('change',e=>{hours=+e.target.value;renderRoute()});renderRoute();renderDiscover();tiles();window.addEventListener('resize',()=>{if(tab==='parking')tiles()});updateEvents();setInterval(updateEvents,30*60*1000);if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));}
 
+const savedRoutesKey = 'citymate.savedRoutes';
+const savedRoutesDialog = $('#saved-routes-dialog');
+const savedRouteForm = $('#save-route-form');
+
+function readSavedRoutes() {
+  try {
+    const records = JSON.parse(localStorage.getItem(savedRoutesKey) || '[]');
+    return Array.isArray(records) ? records.filter(record =>
+      record && typeof record.name === 'string' && Array.isArray(record.stops)
+    ) : [];
+  } catch {
+    return [];
+  }
+}
+
+function renderSavedRoutes() {
+  const list = $('#saved-routes-list');
+  list.replaceChildren();
+  const routes = readSavedRoutes();
+  if (!routes.length) list.textContent = 'Noch keine Routen gespeichert.';
+  routes.forEach((route, index) => {
+    const button = document.createElement('button');
+    button.className = 'smallbtn saved-route-entry';
+    button.dataset.noTranslate = '';
+    button.textContent = route.name;
+    button.addEventListener('click', () => loadSavedRoute(route));
+    list.append(button);
+  });
+}
+
+function loadSavedRoute(route) {
+  const point = route.startPoint;
+  if (point && Number.isFinite(point.lat) && Number.isFinite(point.lon) &&
+      Math.abs(point.lat) <= 90 && Math.abs(point.lon) <= 180) {
+    const id = 'saved-location';
+    let location = get(id);
+    if (!location) {
+      location = {id, name:'Gespeicherter Startpunkt', type:'location'};
+      items.push(location);
+      $('#start').add(new Option(location.name, id));
+    }
+    Object.assign(location, {lat:point.lat, lon:point.lon});
+    start = id;
+  } else {
+    const place = get(route.start);
+    start = place && ['garage','street'].includes(place.type) ? place.id : 'g1';
+  }
+  stops = [...new Set(route.stops)].filter(id => ['sight','food'].includes(get(id)?.type));
+  people = Number.isInteger(route.people) && route.people >= 1 && route.people <= 6 ? route.people : 2;
+  hours = Number.isInteger(route.hours) && route.hours >= 1 && route.hours <= 6 ? route.hours : 3;
+  routeShown = false;
+  selected = null;
+  savedRoutesDialog.close();
+  renderRoute();
+}
+
+function openSavedRoutes(saveMode) {
+  renderSavedRoutes();
+  $('#saved-routes-status').textContent = '';
+  savedRouteForm.hidden = !saveMode;
+  savedRouteForm.reset();
+  savedRoutesDialog.showModal();
+  if (saveMode) $('#route-name').focus();
+}
+
+$('#open-saved-routes').addEventListener('click', () => openSavedRoutes(false));
+$('#save-route').addEventListener('click', () => openSavedRoutes(true));
+savedRouteForm.addEventListener('submit', event => {
+  event.preventDefault();
+  const name = $('#route-name').value.trim();
+  const status = $('#saved-routes-status');
+  if (!name || !stops.length) {
+    status.textContent = 'Gib einen Namen ein und wähle mindestens einen Stopp.';
+    return;
+  }
+  const origin = get(start);
+  const record = {name, start, stops:[...stops], people, hours};
+  if (origin.type === 'location') record.startPoint = {lat:origin.lat, lon:origin.lon};
+  try {
+    localStorage.setItem(savedRoutesKey, JSON.stringify([...readSavedRoutes(), record]));
+    renderSavedRoutes();
+    savedRouteForm.reset();
+    savedRouteForm.hidden = true;
+    status.textContent = 'Route gespeichert.';
+  } catch {
+    status.textContent = 'Die Route konnte in diesem Browser nicht gespeichert werden.';
+  }
+});
+
 // Rewards-Demo: Punkte nur nach zwei GPS-Messungen; kein echter Restaurant-Rabatt.
 const CREDIT_KEY='pirnasmart-rewards-v1';
 let creditState;
@@ -470,4 +565,4 @@ document.addEventListener('click',e=>{
 });
 renderCredits();
 
-})();}</script><script src="design-icons.js?v=17"></script></body></html>
+})();}</script><script src="design-icons.js?v=17"></script><script src="citymate-language.js?v=29"></script></body></html>

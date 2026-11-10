@@ -91,6 +91,43 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .discover-card-foot>.btn{min-height:44px;font-size:14px}
 
 /* Larger primary controls, and a four-item navigation without Credits. */
+.hero{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-right:clamp(18px,4vw,60px)}
+.header-controls{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.hero .header-controls .navigation-toggle{position:static;min-width:0;padding-inline:12px}
+.language-picker{position:relative;z-index:20;color:var(--ink)}
+.language-picker summary{display:flex;align-items:center;gap:6px;min-height:42px;padding:6px 9px;background:var(--surface-raised);border:1px solid var(--line);border-radius:var(--radius-pill);font-weight:700;font-size:13px;list-style:none;cursor:pointer}
+.language-picker summary::-webkit-details-marker{display:none}
+.language-picker summary:focus,.language-picker button:focus{outline:none}
+.language-picker summary:focus-visible,.language-picker button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.language-flag{display:inline-block;flex:none;width:20px;height:14px;border-radius:2px;background-size:100% 100%;box-shadow:0 0 0 1px #0002}
+.language-flag[data-flag="de"]{background-image:linear-gradient(#161616 0 33.33%,#d00 33.33% 66.66%,#ffce00 66.66%)}
+.language-flag[data-flag="en"]{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40'%3E%3Cpath fill='%23012169' d='M0 0h60v40H0z'/%3E%3Cpath stroke='white' stroke-width='8' d='m0 0 60 40m0-40L0 40'/%3E%3Cpath stroke='%23c8102e' stroke-width='3' d='m0 0 60 40m0-40L0 40'/%3E%3Cpath stroke='white' stroke-width='12' d='M30 0v40M0 20h60'/%3E%3Cpath stroke='%23c8102e' stroke-width='7' d='M30 0v40M0 20h60'/%3E%3C/svg%3E")}
+.language-chevron{width:7px;height:7px;border-right:1.5px solid;border-bottom:1.5px solid;transform:translateY(-2px) rotate(45deg)}
+.language-options{position:absolute;right:0;top:calc(100% + 6px);min-width:135px;padding:5px;background:var(--surface-raised);border:1px solid var(--line);border-radius:12px;box-shadow:0 6px 20px #193d3a22}
+.language-options button{display:flex;align-items:center;gap:9px;width:100%;min-height:42px;padding:6px 9px;background:none;border:0;border-radius:8px;color:var(--ink);text-align:left}
+.language-options button[aria-pressed="true"]{background:#edf1e8;font-weight:700}
+:is(#routes,#discover,#info)>.city-hero-photo::after{background:linear-gradient(to top,var(--canvas) 0%,rgba(246,245,241,.98) 9%,rgba(246,245,241,.78) 26%,rgba(246,245,241,.28) 49%,rgba(246,245,241,0) 65%)}
+.body:has(>section:not(.hidden)>.city-hero-photo){padding-top:0}
+#routes>.city-hero-photo,#routes>.route-title-row{grid-column:1/-1}
+.city-hero-photo + .heading,.route-title-row{margin-top:5px}
+.route-title-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.route-title-row h1{margin:0}
+.saved-routes-trigger{display:grid;place-items:center;min-width:46px;min-height:46px;padding:8px}
+#saved-routes-dialog{color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-md);padding:20px;width:min(460px,calc(100% - 28px));max-height:calc(100dvh - 32px);overflow:auto}
+#saved-routes-dialog::backdrop{background:#193d3a77}
+#saved-routes-dialog h2{margin:0;font-family:var(--font-heading);font-size:21px}
+#saved-routes-list{display:grid;gap:8px;margin-block:16px}
+.saved-route-entry{text-align:left;overflow-wrap:anywhere}
+#save-route-form:not([hidden]){display:grid;gap:8px}
+#saved-routes-status:empty{display:none}
+#parking .sub,.sub,.discover-card .sub,.option .sub,.parking-help,.parking-intro p{font-size:18px;line-height:1.6}
+@media(max-width:650px){
+ .citymate-logo-type strong{font-size:19px;flex-wrap:wrap;column-gap:5px;row-gap:0}
+ .citymate-logo-type small{display:none}
+ .header-controls{gap:5px}
+ .hero .header-controls .navigation-toggle{padding-inline:9px}
+ .parking-intro p{font-size:18px}
+}
 .destination-field>label{font-size:16px;font-weight:650;color:var(--ink)}
 .parking-searchbar .search{height:64px;border:3px solid var(--accent);padding:0 20px;box-shadow:0 3px 16px #ee8a0118}
 .parking-searchbar input{height:58px;font-size:18px;font-weight:500}
